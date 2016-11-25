@@ -4,12 +4,11 @@ version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'jetty'
-sourceCompatibility = 1.5
+apply plugin: 'project-report'
 
 repositories {
     mavenCentral()
 }
-
 dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
@@ -23,5 +22,11 @@ dependencies {
 
 task testRunner(type: Test) {
     include 'testRunner.class'
+    reports {
+        html.enabled = true
+    }
 }
+
+
+
 

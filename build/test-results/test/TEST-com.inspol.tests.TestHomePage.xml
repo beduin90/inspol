@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.inspol.tests.TestHomePage" tests="1" skipped="0" failures="0" errors="0" timestamp="2016-11-25T17:42:27" hostname="BEDUIN-KOMP" time="14.574">
+  <properties/>
+  <testcase name="testHomePage_01" classname="com.inspol.tests.TestHomePage" time="14.574"/>
+  <system-out><![CDATA[test1
+test1
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.25.426923 (0390b88869384d6eb0d5d09729679f934aab9eed) on port 31484
+Only local connections are allowed.
+]]></system-err>
+</testsuite>
