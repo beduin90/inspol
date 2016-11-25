@@ -11,9 +11,8 @@ public class testRunner {
 
     @RunWith(Suite.class)
     @Suite.SuiteClasses({
-            TestHomePage.class,
             testPage.class,
-
+            TestHomePage.class,
     })
     public class MySuite {
   /* placeholder, use this to contain all integration tests in one spot * */

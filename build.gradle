@@ -1,7 +1,6 @@
 group 'inspol '
 version '1.0-SNAPSHOT'
 
-
 apply plugin: 'java'
 apply plugin: 'jetty'
 apply plugin: 'project-report'
@@ -20,7 +19,7 @@ dependencies {
 }
 
 
-task testRunner(type: Test) {
+task testSuite(type: Test) {
     include 'testRunner.class'
     reports {
         html.enabled = true
