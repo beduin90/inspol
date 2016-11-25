@@ -7,11 +7,10 @@ import org.junit.runners.Suite;
 
 public class testRunner {
 
-
-
     @RunWith(Suite.class)
     @Suite.SuiteClasses({
             testPage.class,
+            testPage2.class,
             TestHomePage.class,
     })
     public class MySuite {
