@@ -10,7 +10,7 @@ public class TestHomePage extends TestBase {
     @Test
     public void testHomePage_01() throws InterruptedException {
       System.out.println("test1");
-        Thread.sleep(10000);
+        Thread.sleep(500);
     }
 
 
