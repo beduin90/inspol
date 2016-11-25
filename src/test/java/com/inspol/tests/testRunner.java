@@ -12,6 +12,7 @@ public class testRunner {
             testPage.class,
             testPage2.class,
             testPage3.class,
+            testPage4.class,
             TestHomePage.class,
     })
     public class MySuite {
