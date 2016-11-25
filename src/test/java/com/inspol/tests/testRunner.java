@@ -11,6 +11,7 @@ public class testRunner {
     @Suite.SuiteClasses({
             testPage.class,
             testPage2.class,
+            testPage3.class,
             TestHomePage.class,
     })
     public class MySuite {
